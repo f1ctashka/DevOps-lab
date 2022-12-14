@@ -1,0 +1,11 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint:js": "eslint *.js",
+    "lint": "npm run lint:js"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0"
+  }
+}
